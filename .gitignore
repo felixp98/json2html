@@ -1,4 +1,4 @@
-# setup.py output
+# build output
 build/
 dist/
 simplegist.egg-info/

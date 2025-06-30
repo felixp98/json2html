@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json2html"
+authors = [{ name = "Varun Malhotra", email = "varun2902@gmail.com" }]
+description = "JSON to HTML Table Representation"
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["json", "HTML", "Table"]
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    'Programming Language :: Python :: Implementation :: CPython',
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/softvar/json2html"
+Repository = "https://github.com/softvar/json2html.git"
+Issues = "https://github.com/softvar/json2html/issues"
+
+[tool.setuptools]
+packages = ["json2html"]
+
+[tool.setuptools.dynamic]
+version = {attr = "json2html.__version__"}

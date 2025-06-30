@@ -46,7 +46,7 @@ Python module to convert `JSON` into a human readable `HTML Table` representatio
 pip install json2html
 ```
 
-Or, Download [here](https://github.com/softvar/json2html/releases) and run `python setup.py install` after changing directory to `/json2html`
+Or, Download [here](https://github.com/softvar/json2html/releases) and run `pip install .` after changing directory to `/json2html`
 
 ## Example Usage
 
